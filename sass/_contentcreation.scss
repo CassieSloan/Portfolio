@@ -1,9 +1,10 @@
 #content_page { 
 
-    .microphone {
+    @mixin hover-text-replace ($margin-left, $margin-top, $title, $paragraph)
+    {
         position: absolute;
-        margin-left: 45%;
-        margin-top: 10%;
+        margin-left: $margin-left;
+        margin-top: $margin-top;
         transform: scale(1);
         transition-duration: 1s;
         transition-timing-function: ease;
@@ -18,63 +19,29 @@
                     font-size: 0px;
                     }
             &:hover ~ div h3:after {
-                    content: "Podcast";
+                    content: $title;
                     font-size: 30px;
                     }
             &:hover ~ div p:after {
-                    content: "hello world";
+                    content: $paragraph;
                     font-size: 20px;
                     }
-                    
-
+    }
+    .microphone {
+        @include hover-text-replace (45%, 10%, "Podcast", "My podcast about games");
     }
     .coding {
-        position: absolute;
-        margin-left: 65%;
-        margin-top: 25%;
-        transform: scale(1);
-        transition-duration: 1s;
-        transition-timing-function: ease;
-        transition-delay: 0s;
-            &:hover {
-                transform: scale(1.25);
-        }
+        @include hover-text-replace (65%, 25%, "Programming", "My work as a developer");
     }
     .camera {
-        position: absolute;
-        margin-left: 60%;
-        margin-top: 45%;
-        transform: scale(1);
-        transition-duration: 1s;
-        transition-timing-function: ease;
-        transition-delay: 0s;
-            &:hover {
-                transform: scale(1.25);
-        }
+        @include hover-text-replace (60%, 45%, "Modelling", "My work as a collaborator and contributor");        
     }
+
     .headset {
-        position: absolute;
-        margin-left: 25%;
-        margin-top: 25%;
-        transform: scale(1);
-        transition-duration: 1s;
-        transition-timing-function: ease;
-        transition-delay: 0s;
-            &:hover {
-                transform: scale(1.25);
-        }
+        @include hover-text-replace (25%, 25%, "Twitch Community", "My work as a streamer");
     }
     .art {
-        position: absolute;
-        margin-left: 30%;
-        margin-top: 45%;
-        transform: scale(1);
-        transition-duration: 1s;
-        transition-timing-function: ease;
-        transition-delay: 0s;
-            &:hover {
-                transform: scale(1.25);
-        }
+        @include hover-text-replace (30%, 45%, "Art and inspiration", "My art and what inspires me");
     }
  
     div {
@@ -87,7 +54,11 @@
         transition-delay: 0s;
             &:hover {
                 transform: scale(1.25);
-        }
+            }
+            h3 {
+                font-size: 30px;
+            }
     }
+
 
 }
