@@ -1,10 +1,42 @@
 #content_page { 
 
     .microphone {
-    position: absolute;
-    margin-left: 400px;
-    margin-top: 400px;
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 10%;
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        &:hover {
+            transform: scale(1.25);
+        }
+    }
+    .coding {
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 25%;
+    }
+    .camera {
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 45%;
+    }
+    .headset {
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+    .art {
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 45%;
     }
  
+    div {
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
 
 }

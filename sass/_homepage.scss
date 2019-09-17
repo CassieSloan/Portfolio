@@ -27,7 +27,11 @@
         }
     }
 }
-
+nav {
+    color: white;
+    position: relative;
+    margin-top: 50px;
+}
 
 // classes
 
@@ -37,6 +41,25 @@
     height: auto;
     
 }
+
+.bottom_portrait {
+    height: auto;
+    width: 25%;
+    margin-right: 50px;
+    margin-top: 70px;
+    border-radius: 20px 90px 90px 90px;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin: 30px;
+}
+
+// IDs
 
 #section1 {
     position: relative;
@@ -56,24 +79,8 @@
 
 }
 
-
 #section2 {
     text-align: right;
 }
 
-.bottom_portrait {
-    height: auto;
-    width: 25%;
-    margin-right: 50px;
-    margin-top: 70px;
-    border-radius: 20px 90px 90px 90px;
-}
 
-.center {
-    text-align: center;
-}
-
-.logo {
-    text-align: center;
-    margin: 30px;
-}

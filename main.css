@@ -23,30 +23,16 @@
   margin-bottom: 10%;
 }
 
+nav {
+  color: white;
+  position: relative;
+  margin-top: 50px;
+}
+
 .imageresize {
   size: cover;
   width: 20%;
   height: auto;
-}
-
-#section1 {
-  position: relative;
-  margin-left: 50px;
-  padding: 50px;
-  border-left: 10px solid white;
-  border-top: 10px solid white;
-}
-#section1 div {
-  width: 75%;
-  height: 10px;
-  background-color: red;
-  position: absolute;
-  top: -10px;
-  right: 0;
-}
-
-#section2 {
-  text-align: right;
 }
 
 .bottom_portrait {
@@ -66,10 +52,62 @@
   margin: 30px;
 }
 
+#section1 {
+  position: relative;
+  margin-left: 50px;
+  padding: 50px;
+  border-left: 10px solid white;
+  border-top: 10px solid white;
+}
+#section1 div {
+  width: 75%;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+#section2 {
+  text-align: right;
+}
+
 #content_page .microphone {
   position: absolute;
-  margin-left: 400px;
-  margin-top: 400px;
+  margin-left: 45%;
+  margin-top: 10%;
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+#content_page .microphone:hover {
+  transform: scale(1.25);
+}
+#content_page .coding {
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 25%;
+}
+#content_page .camera {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 45%;
+}
+#content_page .headset {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+#content_page .art {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 45%;
+}
+#content_page div {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 30%;
 }
 
 /*# sourceMappingURL=main.css.map */
