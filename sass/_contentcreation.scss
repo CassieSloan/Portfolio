@@ -1,5 +1,5 @@
 #content_page { 
-
+    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
     @mixin hover-text-replace ($margin-left, $margin-top, $title, $paragraph)
     {
         position: absolute;
@@ -57,6 +57,8 @@
             }
             h3 {
                 font-size: 30px;
+                font-family: 'Lobster';
+                // cassie fix this. lobster DON'T WORK!!!
             }
     }
 

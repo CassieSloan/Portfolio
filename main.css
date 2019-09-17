@@ -72,6 +72,9 @@ nav {
   text-align: right;
 }
 
+#content_page {
+  @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+}
 #content_page .microphone {
   position: absolute;
   margin-left: 45%;
@@ -216,6 +219,7 @@ nav {
 }
 #content_page div h3 {
   font-size: 30px;
+  font-family: "Lobster";
 }
 
 /*# sourceMappingURL=main.css.map */
