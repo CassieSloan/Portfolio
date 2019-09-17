@@ -84,30 +84,79 @@ nav {
 #content_page .microphone:hover {
   transform: scale(1.25);
 }
+#content_page .microphone:hover ~ div h3 {
+  font-size: 0px;
+}
+#content_page .microphone:hover ~ div p {
+  font-size: 0px;
+}
+#content_page .microphone:hover ~ div h3:after {
+  content: "Podcast";
+  font-size: 30px;
+}
+#content_page .microphone:hover ~ div p:after {
+  content: "hello world";
+  font-size: 20px;
+}
 #content_page .coding {
   position: absolute;
   margin-left: 65%;
   margin-top: 25%;
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+#content_page .coding:hover {
+  transform: scale(1.25);
 }
 #content_page .camera {
   position: absolute;
   margin-left: 60%;
   margin-top: 45%;
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+#content_page .camera:hover {
+  transform: scale(1.25);
 }
 #content_page .headset {
   position: absolute;
   margin-left: 25%;
   margin-top: 25%;
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+#content_page .headset:hover {
+  transform: scale(1.25);
 }
 #content_page .art {
   position: absolute;
   margin-left: 30%;
   margin-top: 45%;
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+#content_page .art:hover {
+  transform: scale(1.25);
 }
 #content_page div {
   position: absolute;
   margin-left: 40%;
   margin-top: 30%;
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+#content_page div:hover {
+  transform: scale(1.25);
 }
 
 /*# sourceMappingURL=main.css.map */

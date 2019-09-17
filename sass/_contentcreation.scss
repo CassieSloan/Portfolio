@@ -8,35 +8,86 @@
         transition-duration: 1s;
         transition-timing-function: ease;
         transition-delay: 0s;
-        &:hover {
-            transform: scale(1.25);
-        }
+            &:hover {
+                transform: scale(1.25);
+                    }   
+            &:hover ~ div h3 {
+                    font-size: 0px;
+                    }
+            &:hover ~ div p {
+                    font-size: 0px;
+                    }
+            &:hover ~ div h3:after {
+                    content: "Podcast";
+                    font-size: 30px;
+                    }
+            &:hover ~ div p:after {
+                    content: "hello world";
+                    font-size: 20px;
+                    }
+                    
+
     }
     .coding {
         position: absolute;
         margin-left: 65%;
         margin-top: 25%;
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+            &:hover {
+                transform: scale(1.25);
+        }
     }
     .camera {
         position: absolute;
         margin-left: 60%;
         margin-top: 45%;
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+            &:hover {
+                transform: scale(1.25);
+        }
     }
     .headset {
         position: absolute;
         margin-left: 25%;
         margin-top: 25%;
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+            &:hover {
+                transform: scale(1.25);
+        }
     }
     .art {
         position: absolute;
         margin-left: 30%;
         margin-top: 45%;
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+            &:hover {
+                transform: scale(1.25);
+        }
     }
  
     div {
         position: absolute;
         margin-left: 40%;
         margin-top: 30%;
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+            &:hover {
+                transform: scale(1.25);
+        }
     }
 
 }
