@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 #homepage body {
   background-color: black;
 }
@@ -373,6 +374,52 @@ nav {
 #blog body section article #blog5 {
   background: url(/images/blog5.jpg) no-repeat center;
   background-size: cover;
+}
+
+#about_me body {
+  background-color: black;
+}
+#about_me body h1 {
+  position: absolute;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 100px;
+  margin-left: 20%;
+  margin-top: -20%;
+  margin-bottom: 10%;
+}
+#about_me body p {
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+}
+#about_me body .selfportrait {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -15%;
+  width: 30%;
+  border: 15px white solid;
+  border-bottom: 70px white solid;
+}
+#about_me body .arrow {
+  position: absolute;
+  margin-top: 45%;
+  margin-left: -30%;
+  width: 10%;
+  transform: rotate(310deg);
+}
+#about_me body .likes_icons {
+  margin-left: 10%;
+}
+#about_me body .circle_icons {
+  width: 128px;
+  margin: 0.5%;
+}
+#about_me body .social_resize {
+  width: 90px;
+}
+#about_me body .first_para {
+  margin-top: 20%;
 }
 
 /*# sourceMappingURL=main.css.map */

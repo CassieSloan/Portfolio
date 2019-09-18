@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" #about_me>
+<html lang="en" id="about_me">
 <head>
     <link rel="stylesheet" href="main.css"/>
     <meta charset="UTF-8">
@@ -8,19 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>this is the about me page</h1>
-    <p>
+    <h1>About me</h1>
+    <p class="first_para">
         Wafer cheesecake dessert cheesecake. Donut lollipop chupa chups sugar plum marshmallow lemon drops. Cookie jelly beans sweet cookie chocolate sweet candy sweet. Sweet roll powder halvah sweet. Chocolate cake jujubes sesame snaps. Caramels topping powder pudding macaroon tiramisu. Sesame snaps pie dragée candy sweet roll cupcake carrot cake. Powder chocolate cake danish ice cream oat cake jelly beans jujubes cotton candy cake.
     </p>
-    <div>
+        <!-- self portrait -->
+    <section >
+        <img src="/images/aboutmeself.jpg" class="selfportrait"/>
+        <img src="images/arrow2.png" class="arrow"/>
+    </section>
         <!-- circle icons -->
-        <img src="/images/aboutmeself.jpg"/>
-        <img src="/images/vegan.jpg"/>
-        <img src="images/tv.png"/>
-        <img src="images/games.png"/>
-        <img src="images/coffee1.png"/>
-        <img src="images/cat.png"/>
-    </div>
+    <section class="likes_icons">
+        <div>
+            <img src="/images/vegan.png" class="circle_icons"/>
+            <img src="images/tv.png" class="circle_icons"/>
+            <img src="images/games.png" class="circle_icons"/>
+        </div>  
+        <div>
+            <img src="images/coffee1.png" class="circle_icons"/>
+            <img src="images/cat.png" class="circle_icons"/>
+            <img src="images/books.png" class="circle_icons"/>
+        </div>
+    </section>
     <p>
         Wafer cheesecake dessert cheesecake. Donut lollipop chupa chups sugar plum marshmallow lemon drops. Cookie jelly beans sweet cookie chocolate sweet candy sweet. Sweet roll powder halvah sweet. Chocolate cake jujubes sesame snaps. Caramels topping powder pudding macaroon tiramisu. Sesame snaps pie dragée candy sweet roll cupcake carrot cake. Powder chocolate cake danish ice cream oat cake jelly beans jujubes cotton candy cake.
     </p>
@@ -29,14 +38,14 @@
         <img src="images/contactme.png"/>
         <img src="images/resume.png"/>
     </div>
-    <div>
+    <section>
         <!-- social media icons -->
-        <img src="/images/twitter.png" alt="twitter"/>
-        <img src="/images/github.svg" alt="github">
-        <img src="images/twitch.png" alt="twitch"/>
-        <img src="images/instagram.png" alt="instagram"/>
-        <img src="images/tumblr.png" alt="tumblr"/>
-        <img src="images/57-571935_linkedin-icon-vector-png-linkedin-circle-logo-transparent.png" alt="linkedin"/>
-    </div>
+            <img src="/images/twitter.png" alt="twitter" class="social_resize"/>
+            <img src="/images/github.png" alt="github" class="social_resize"/>
+            <img src="images/twitch.png" alt="twitch" class="social_resize"/>
+            <img src="images/instagram.png" alt="instagram" class="social_resize"/>
+            <img src="images/tumblr.png" alt="tumblr" class="social_resize"/>
+            <img src="images/linkedin.jpg" alt="linkedin" class="social_resize"/>
+    </section>
 </body>
 </html>
