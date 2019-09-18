@@ -4,6 +4,46 @@
 #homepage body {
   background-color: black;
 }
+#homepage body div .dropdown {
+  right: 0;
+}
+#homepage body .dropbtn {
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#homepage body .dropdown {
+  position: relative;
+  display: inline-block;
+}
+#homepage body .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  opacity: 0.8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#homepage body .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#homepage body .dropdown-content a:hover {
+  background-color: orange;
+}
+#homepage body .dropdown:hover .dropdown-content {
+  display: block;
+}
+#homepage body .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
 #homepage body footer {
   color: white;
 }
@@ -313,22 +353,26 @@ nav {
   display: inline-block;
   width: 400px;
   height: 300px;
-  background-size: initial;
 }
 #blog body section article #blog1 {
   background: url(/images/blog1.jpg) no-repeat center;
+  background-size: cover;
 }
 #blog body section article #blog2 {
   background: url(/images/blog2.jpg) no-repeat center;
+  background-size: cover;
 }
 #blog body section article #blog3 {
   background: url(/images/blog3.jpg) no-repeat center;
+  background-size: cover;
 }
 #blog body section article #blog4 {
   background: url(/images/blbog4.gif) no-repeat center;
+  background-size: cover;
 }
 #blog body section article #blog5 {
   background: url(/images/blog5.jpg) no-repeat center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
