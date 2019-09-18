@@ -6,55 +6,81 @@
     body {
         background-color: rgb(0, 0, 0);
 
-            div .dropdown {
-                right: 0;
+        div .dropbtn {
+            right: 0;
+        }
+
+        .dropbtn {
+            right: 0;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            opacity: 0.80;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: orange;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: #ffffff;
+        }
+            
+        .nav_images {
+
+            div {
+                width: 20%;
+                height: 500px;
+                display: inline-block;
             }
 
-                .dropbtn {
-                    right: 0;
-                    background-color: rgb(255, 255, 255);
-                    color: rgb(0, 0, 0);
-                    padding: 16px;
-                    font-size: 16px;
-                    border: none;
-                    cursor: pointer;
-                }
-                
-                .dropdown {
-                    position: relative;
-                    display: inline-block;
-                }
-                
-                .dropdown-content {
-                    display: none;
-                    position: absolute;
-                    background-color: #f9f9f9;
-                    opacity: 0.80;
-                    min-width: 160px;
-                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                    z-index: 1;
-                }
-                
-                .dropdown-content a {
-                    color: black;
-                    padding: 12px 16px;
-                    text-decoration: none;
-                    display: block;
-                }
-                
-                .dropdown-content a:hover {
-                    background-color: orange;
-                }
-                
-                .dropdown:hover .dropdown-content {
-                    display: block;
-                }
-                
-                .dropdown:hover .dropbtn {
-                    background-color: #ffffff;
-                }
-            
-    
+            #nav_image1 {
+                background: url('/images/me_arcade.jpg') no-repeat center;
+                background-size: cover;
+            }
+            #nav_image2 {
+                background: url('/images/contact.jpeg') no-repeat center;
+                background-size: cover;
+            }
+            #nav_image3 {
+                background: url('/images/blog.jpeg') no-repeat center;
+                background-size: cover;
+            }
+            #nav_image4 {
+                background: url('/images/content.jpeg') no-repeat center;
+                background-size: cover;
+            }
+
+        }       
+        
         footer {
             color: rgb(255, 255, 255);
         }
@@ -86,7 +112,6 @@ nav {
 // classes
 
 .imageresize {
-    size: cover;
     width: 20%;
     height: auto;
     
@@ -118,7 +143,7 @@ nav {
     border-left: 10px solid rgb(255, 255, 255);
     border-top: 10px solid rgb(255, 255, 255);
 
-        div {
+        .bar {
         width: 75%;
         height: 10px;
         background-color: rgb(0, 0, 0);

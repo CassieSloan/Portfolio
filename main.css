@@ -5,7 +5,7 @@
 #homepage body {
   background-color: black;
 }
-#homepage body div .dropdown {
+#homepage body div .dropbtn {
   right: 0;
 }
 #homepage body .dropbtn {
@@ -45,6 +45,27 @@
 #homepage body .dropdown:hover .dropbtn {
   background-color: #ffffff;
 }
+#homepage body .nav_images div {
+  width: 20%;
+  height: 500px;
+  display: inline-block;
+}
+#homepage body .nav_images #nav_image1 {
+  background: url("/images/me_arcade.jpg") no-repeat center;
+  background-size: cover;
+}
+#homepage body .nav_images #nav_image2 {
+  background: url("/images/contact.jpeg") no-repeat center;
+  background-size: cover;
+}
+#homepage body .nav_images #nav_image3 {
+  background: url("/images/blog.jpeg") no-repeat center;
+  background-size: cover;
+}
+#homepage body .nav_images #nav_image4 {
+  background: url("/images/content.jpeg") no-repeat center;
+  background-size: cover;
+}
 #homepage body footer {
   color: white;
 }
@@ -73,7 +94,6 @@ nav {
 }
 
 .imageresize {
-  size: cover;
   width: 20%;
   height: auto;
 }
@@ -102,7 +122,7 @@ nav {
   border-left: 10px solid white;
   border-top: 10px solid white;
 }
-#section1 div {
+#section1 .bar {
   width: 75%;
   height: 10px;
   background-color: black;
