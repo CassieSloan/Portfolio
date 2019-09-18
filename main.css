@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 #homepage body {
   background-color: black;
 }
@@ -275,6 +276,40 @@ nav {
 #contact body .resize {
   width: 50%;
   margin: 5% 1%;
+}
+
+#blog body {
+  background-color: black;
+}
+#blog body h1 {
+  position: absolute;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 100px;
+  margin-left: 10%;
+  top: 0;
+}
+#blog body article {
+  margin-top: 10%;
+}
+#blog body article h3 {
+  color: white;
+  margin-left: 40%;
+}
+#blog body article p {
+  color: white;
+  margin-left: 40%;
+  width: 40%;
+}
+#blog body article div {
+  position: absolute;
+  margin: 5%;
+  left: 0;
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  background: url(https://bit.ly/2mjL8l1) no-repeat center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
