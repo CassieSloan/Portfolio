@@ -1,40 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-
-#contact {
-    body {
-        background-color: black;
-        h3 {
+@mixin title-classes ($margin-left, $margin-top)
+            {
             font-size: 100px;
             font-family: 'Permanent Marker', cursive;
             color: rgb(255, 255, 255);
             position: absolute;
-
-                .tumblr {
-                    margin-left: 60%;
-
-                    
-                }
-                // .instagran {
-                //     margin-left: 50%;
-
-                // }
-                // .twitter {
-                //     margin-left: 50%;
-
-                // }
-                // .github {
-                //     margin-left: 50%;
-
-                // }
-                // .twitch {
-                //     margin-left: 50%;
-
-                // }
+            margin-left: $margin-left;
+            margin-top: $margin-top;
+            }
+#contact {
+    body {
+        background-color: black;
         
-        }
+                .tumblr {   
+                    @include title-classes (65%, 15%);
+                }
+                .instagram {
+                    @include title-classes (50%, 20%);
+                }
+                .twitter {
+                    @include title-classes (60%, 0%);
+                }
+                .github {
+                    @include title-classes (60%, 0%);
+                }
+                .twitch {
+                    @include title-classes (60%, 10%);
+                }       
         h1 {
             color: rgb(255, 255, 255);
             
+        }
+        div {
+            color: rgb(255, 255, 255);
+        }
+    .resize {
+        width: 50%;
+        margin: 5% 1%;
         }
     }
  }

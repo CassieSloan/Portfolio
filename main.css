@@ -226,17 +226,55 @@ nav {
 #contact body {
   background-color: black;
 }
-#contact body h3 {
+#contact body .tumblr {
   font-size: 100px;
   font-family: "Permanent Marker", cursive;
   color: white;
   position: absolute;
+  margin-left: 65%;
+  margin-top: 15%;
 }
-#contact body h3 .tumblr {
+#contact body .instagram {
+  font-size: 100px;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+#contact body .twitter {
+  font-size: 100px;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  position: absolute;
   margin-left: 60%;
+  margin-top: 0%;
+}
+#contact body .github {
+  font-size: 100px;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 0%;
+}
+#contact body .twitch {
+  font-size: 100px;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 10%;
 }
 #contact body h1 {
   color: white;
+}
+#contact body div {
+  color: white;
+}
+#contact body .resize {
+  width: 50%;
+  margin: 5% 1%;
 }
 
 /*# sourceMappingURL=main.css.map */
