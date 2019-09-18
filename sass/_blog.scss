@@ -10,37 +10,58 @@
             font-family: 'Permanent Marker', cursive;
             color: rgb(255, 255, 255);
             font-size: 100px;
-            margin-left: 10%;
-            top: 0;
+            margin-left: 40%;
+            margin-top: -20%;
         }
 
-        article {
-            margin-top: 10%;
+        section { 
+            margin-top: 25%;
 
-
-                h3 {
-                    color: rgb(255, 255, 255);
-                    margin-left: 40%;
+            article {
+                margin-top: 10%;
+                margin-bottom: 20%;
+    
+                    h3 {
+                        color: rgb(255, 255, 255);
+                        margin-left: 45%;
+                    }
+            
+                    p {
+                        color: rgb(255, 255, 255);
+                        margin-left: 45%;
+                        width: 40%;
+                    }
+            
+                    div {
+                        position: absolute;
+                        margin-left: 5%;
+                        margin-top: -20%;
+                        left: 0;
+                        display: inline-block;
+                        width: 400px;
+                        height: 300px;
+                        background-size: initial;
                 }
-        
-                p {
-                    color: rgb(255, 255, 255);
-                    margin-left: 40%;
-                    width: 40%;
-        
+                #blog1 {
+                    background: url(/images/blog1.jpg) no-repeat center;
+                    }
+                #blog2 {
+                    background: url(/images/blog2.jpg) no-repeat center;
                 }
-        
-                div {
-                    position: absolute;
-                    margin: 5%;
-                    left: 0;
-                    display: inline-block;
-                    width: 400px;
-                    height: 300px;
-                    background: url(https://bit.ly/2mjL8l1) no-repeat center;
-                    background-size: cover;
+                #blog3 {
+                    background: url(/images/blog3.jpg) no-repeat center;
+                }
+                #blog4 {
+                    background: url(/images/blbog4.gif) no-repeat center;
+                }
+                #blog5 {
+                    background: url(/images/blog5.jpg) no-repeat center;
+                }
             }
+            
         }
+
+        
 
     }
     
