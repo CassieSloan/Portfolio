@@ -39,13 +39,13 @@
             @include hover-text-replace (65%, 25%, "Programming", "My work as a developer");
         }
         .camera {
-            @include hover-text-replace (60%, 45%, "Modelling", "My work as a collaborator and contributor");        
+            @include hover-text-replace (60%, 45%, "Collaboration", "My work as a model");        
         }
         .headset {
             @include hover-text-replace (25%, 25%, "Twitch Community", "My work as a streamer");
         }
         .art {
-            @include hover-text-replace (30%, 45%, "Art and inspiration", "My art and what inspires me");
+            @include hover-text-replace (30%, 45%, "Art", "Doodles from here and there");
         }
     }
     section {
@@ -87,6 +87,7 @@
     h6 {
         color: rgb(255, 203, 203);
         font-family: 'Comfortaa', cursive;
+        font-size: 1em;
     }
     
     p {
@@ -94,12 +95,54 @@
         font-family: 'Comfortaa', cursive;
     }
     
-    
     .podcast_info {
         position: absolute;
-        width: 50%;
+        width: 40%;
         margin-top: 60%;
-        margin-left: 5%;
+        margin-left: 10%;
         }
-    
+    .dev_info {
+        position: absolute;
+        width: 40%;
+        margin-top: 85%;
+        margin-left: 10%;
+        }
+    .model_info {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        margin-top: 115%; 
+        text-align: center;  
+            h6 {
+                width: 80%;
+                margin-left: 10%;
+            }   
+        }
+    .art_info {
+        position: absolute;
+        width: 40%;
+        margin-top: 160%;
+        margin-left: 10%;
+        }    
+    img.resize {
+        width: auto;
+        height: 300px;
+        display: inline;
+        }
+    #anchor_embed {
+        position: absolute;
+        margin-left: 120%;
+        margin-top: 20%;
+        margin-right: 10%;
+        }
+    #git_embed {
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 120%;
+        }
+    #art_embed {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 120%;
+        }
 }

@@ -248,11 +248,11 @@ nav {
   font-size: 0px;
 }
 #content_page body .camera:hover ~ div h3:after {
-  content: "Modelling";
+  content: "Collaboration";
   font-size: 30px;
 }
 #content_page body .camera:hover ~ div p:after {
-  content: "My work as a collaborator and contributor";
+  content: "My work as a model";
   font-size: 20px;
 }
 #content_page body .headset {
@@ -300,11 +300,11 @@ nav {
   font-size: 0px;
 }
 #content_page body .art:hover ~ div h3:after {
-  content: "Art and inspiration";
+  content: "Art";
   font-size: 30px;
 }
 #content_page body .art:hover ~ div p:after {
-  content: "My art and what inspires me";
+  content: "Doodles from here and there";
   font-size: 20px;
 }
 #content_page section {
@@ -345,6 +345,7 @@ nav {
 #content_page h6 {
   color: #ffcbcb;
   font-family: "Comfortaa", cursive;
+  font-size: 1em;
 }
 #content_page p {
   color: #ffcbcb;
@@ -352,9 +353,53 @@ nav {
 }
 #content_page .podcast_info {
   position: absolute;
-  width: 50%;
+  width: 40%;
   margin-top: 60%;
-  margin-left: 5%;
+  margin-left: 10%;
+}
+#content_page .dev_info {
+  position: absolute;
+  width: 40%;
+  margin-top: 85%;
+  margin-left: 10%;
+}
+#content_page .model_info {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  margin-top: 115%;
+  text-align: center;
+}
+#content_page .model_info h6 {
+  width: 80%;
+  margin-left: 10%;
+}
+#content_page .art_info {
+  position: absolute;
+  width: 40%;
+  margin-top: 160%;
+  margin-left: 10%;
+}
+#content_page img.resize {
+  width: auto;
+  height: 300px;
+  display: inline;
+}
+#content_page #anchor_embed {
+  position: absolute;
+  margin-left: 120%;
+  margin-top: 20%;
+  margin-right: 10%;
+}
+#content_page #git_embed {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 120%;
+}
+#content_page #art_embed {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 120%;
 }
 
 #contact body {
