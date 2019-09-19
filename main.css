@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
@@ -108,9 +109,9 @@
   position: absolute;
   font-family: "Permanent Marker", cursive;
   color: white;
-  font-size: 100px;
-  margin-left: 30%;
-  margin-top: 55px;
+  font-size: 6.5em;
+  margin-left: 25%;
+  margin-top: 4%;
   margin-bottom: 10%;
 }
 
@@ -419,7 +420,7 @@ nav {
   background-color: black;
 }
 #contact body .tumblr {
-  font-size: 100px;
+  font-size: 6.5em;
   font-family: "Permanent Marker", cursive;
   color: white;
   position: absolute;
@@ -427,7 +428,7 @@ nav {
   margin-top: 15%;
 }
 #contact body .instagram {
-  font-size: 100px;
+  font-size: 6.5em;
   font-family: "Permanent Marker", cursive;
   color: white;
   position: absolute;
@@ -435,7 +436,7 @@ nav {
   margin-top: 20%;
 }
 #contact body .twitter {
-  font-size: 100px;
+  font-size: 6.5em;
   font-family: "Permanent Marker", cursive;
   color: white;
   position: absolute;
@@ -443,7 +444,7 @@ nav {
   margin-top: 0%;
 }
 #contact body .github {
-  font-size: 100px;
+  font-size: 6.5em;
   font-family: "Permanent Marker", cursive;
   color: white;
   position: absolute;
@@ -451,7 +452,7 @@ nav {
   margin-top: 0%;
 }
 #contact body .twitch {
-  font-size: 100px;
+  font-size: 6.5em;
   font-family: "Permanent Marker", cursive;
   color: white;
   position: absolute;
@@ -460,6 +461,8 @@ nav {
 }
 #contact body h1 {
   color: white;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
 }
 #contact body div {
   color: white;
@@ -468,12 +471,29 @@ nav {
   width: 50%;
   margin: 5% 1%;
 }
+#contact body .contact_me {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+#contact body h6 {
+  display: inherit;
+  font-family: "Comfortaa", cursive;
+  background-color: #ffcbcb;
+  color: black;
+  font-size: 1em;
+  padding: 0.5%;
+  text-decoration: none;
+  border-radius: 0.5em;
+  margin-top: 1%;
+}
 #contact body p {
   color: #ffcbcb;
   font-family: "Comfortaa", cursive;
-  color: white;
   line-height: 130%;
   letter-spacing: 0.1em;
+}
+#contact #margin_left {
+  margin-left: 1%;
 }
 
 #blog body {
