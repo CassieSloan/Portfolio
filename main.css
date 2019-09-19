@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 #homepage body {
   background-color: black;
@@ -169,9 +171,13 @@ nav {
 }
 
 #content_page {
-  @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
 }
-#content_page .microphone {
+#content_page body {
+  background-color: black;
+}
+#content_page body .microphone {
   position: absolute;
   margin-left: 45%;
   margin-top: 10%;
@@ -180,24 +186,24 @@ nav {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#content_page .microphone:hover {
+#content_page body .microphone:hover {
   transform: scale(1.25);
 }
-#content_page .microphone:hover ~ div h3 {
+#content_page body .microphone:hover ~ div h3 {
   font-size: 0px;
 }
-#content_page .microphone:hover ~ div p {
+#content_page body .microphone:hover ~ div p {
   font-size: 0px;
 }
-#content_page .microphone:hover ~ div h3:after {
+#content_page body .microphone:hover ~ div h3:after {
   content: "Podcast";
   font-size: 30px;
 }
-#content_page .microphone:hover ~ div p:after {
+#content_page body .microphone:hover ~ div p:after {
   content: "My podcast about games";
   font-size: 20px;
 }
-#content_page .coding {
+#content_page body .coding {
   position: absolute;
   margin-left: 65%;
   margin-top: 25%;
@@ -206,24 +212,24 @@ nav {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#content_page .coding:hover {
+#content_page body .coding:hover {
   transform: scale(1.25);
 }
-#content_page .coding:hover ~ div h3 {
+#content_page body .coding:hover ~ div h3 {
   font-size: 0px;
 }
-#content_page .coding:hover ~ div p {
+#content_page body .coding:hover ~ div p {
   font-size: 0px;
 }
-#content_page .coding:hover ~ div h3:after {
+#content_page body .coding:hover ~ div h3:after {
   content: "Programming";
   font-size: 30px;
 }
-#content_page .coding:hover ~ div p:after {
+#content_page body .coding:hover ~ div p:after {
   content: "My work as a developer";
   font-size: 20px;
 }
-#content_page .camera {
+#content_page body .camera {
   position: absolute;
   margin-left: 60%;
   margin-top: 45%;
@@ -232,24 +238,24 @@ nav {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#content_page .camera:hover {
+#content_page body .camera:hover {
   transform: scale(1.25);
 }
-#content_page .camera:hover ~ div h3 {
+#content_page body .camera:hover ~ div h3 {
   font-size: 0px;
 }
-#content_page .camera:hover ~ div p {
+#content_page body .camera:hover ~ div p {
   font-size: 0px;
 }
-#content_page .camera:hover ~ div h3:after {
+#content_page body .camera:hover ~ div h3:after {
   content: "Modelling";
   font-size: 30px;
 }
-#content_page .camera:hover ~ div p:after {
+#content_page body .camera:hover ~ div p:after {
   content: "My work as a collaborator and contributor";
   font-size: 20px;
 }
-#content_page .headset {
+#content_page body .headset {
   position: absolute;
   margin-left: 25%;
   margin-top: 25%;
@@ -258,24 +264,24 @@ nav {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#content_page .headset:hover {
+#content_page body .headset:hover {
   transform: scale(1.25);
 }
-#content_page .headset:hover ~ div h3 {
+#content_page body .headset:hover ~ div h3 {
   font-size: 0px;
 }
-#content_page .headset:hover ~ div p {
+#content_page body .headset:hover ~ div p {
   font-size: 0px;
 }
-#content_page .headset:hover ~ div h3:after {
+#content_page body .headset:hover ~ div h3:after {
   content: "Twitch Community";
   font-size: 30px;
 }
-#content_page .headset:hover ~ div p:after {
+#content_page body .headset:hover ~ div p:after {
   content: "My work as a streamer";
   font-size: 20px;
 }
-#content_page .art {
+#content_page body .art {
   position: absolute;
   margin-left: 30%;
   margin-top: 45%;
@@ -284,24 +290,27 @@ nav {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#content_page .art:hover {
+#content_page body .art:hover {
   transform: scale(1.25);
 }
-#content_page .art:hover ~ div h3 {
+#content_page body .art:hover ~ div h3 {
   font-size: 0px;
 }
-#content_page .art:hover ~ div p {
+#content_page body .art:hover ~ div p {
   font-size: 0px;
 }
-#content_page .art:hover ~ div h3:after {
+#content_page body .art:hover ~ div h3:after {
   content: "Art and inspiration";
   font-size: 30px;
 }
-#content_page .art:hover ~ div p:after {
+#content_page body .art:hover ~ div p:after {
   content: "My art and what inspires me";
   font-size: 20px;
 }
-#content_page div {
+#content_page section {
+  margin-top: 5%;
+}
+#content_page .enlarge_text {
   position: absolute;
   margin-left: 40%;
   margin-top: 30%;
@@ -310,12 +319,42 @@ nav {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#content_page div:hover {
+#content_page .enlarge_text:hover {
   transform: scale(1.25);
 }
-#content_page div h3 {
+#content_page h1 {
+  position: absolute;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 100px;
+  top: -10%;
+  left: 10%;
+}
+#content_page h2 {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  font-size: 2em;
+}
+#content_page h3 {
+  color: #ffcbcb;
   font-size: 30px;
-  font-family: "Lobster";
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+}
+#content_page h6 {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+}
+#content_page p {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+}
+#content_page .podcast_info {
+  position: absolute;
+  width: 50%;
+  margin-top: 60%;
+  margin-left: 5%;
 }
 
 #contact body {
@@ -371,6 +410,13 @@ nav {
   width: 50%;
   margin: 5% 1%;
 }
+#contact body p {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  color: white;
+  line-height: 130%;
+  letter-spacing: 0.1em;
+}
 
 #blog body {
   background-color: black;
@@ -395,9 +441,13 @@ nav {
   margin-left: 45%;
 }
 #blog body section article p {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
   color: white;
   margin-left: 45%;
   width: 40%;
+  line-height: 130%;
+  letter-spacing: 0.1em;
 }
 #blog body section article div {
   position: absolute;

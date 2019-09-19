@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap');
+
 @mixin title-classes ($margin-left, $margin-top)
             {
             font-size: 100px;
@@ -38,6 +40,14 @@
         width: 50%;
         margin: 5% 1%;
         }
+    p {    
+        color: rgb(255, 203, 203);
+        font-family: 'Comfortaa', cursive;
+        color: rgb(255, 255, 255);
+        line-height: 130%;
+        letter-spacing: 0.1em;
+        }
     }
+
  }
 

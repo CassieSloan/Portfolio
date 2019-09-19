@@ -1,5 +1,6 @@
 #content_page { 
-    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap');
     @mixin hover-text-replace ($margin-left, $margin-top, $title, $paragraph)
     {
         position: absolute;
@@ -27,24 +28,31 @@
                     font-size: 20px;
                     }
     }
-    .microphone {
-        @include hover-text-replace (45%, 10%, "Podcast", "My podcast about games");
-    }
-    .coding {
-        @include hover-text-replace (65%, 25%, "Programming", "My work as a developer");
-    }
-    .camera {
-        @include hover-text-replace (60%, 45%, "Modelling", "My work as a collaborator and contributor");        
-    }
 
-    .headset {
-        @include hover-text-replace (25%, 25%, "Twitch Community", "My work as a streamer");
+    body {
+        background-color: rgb(0, 0, 0);
+
+        .microphone {
+            @include hover-text-replace (45%, 10%, "Podcast", "My podcast about games");
+        }
+        .coding {
+            @include hover-text-replace (65%, 25%, "Programming", "My work as a developer");
+        }
+        .camera {
+            @include hover-text-replace (60%, 45%, "Modelling", "My work as a collaborator and contributor");        
+        }
+        .headset {
+            @include hover-text-replace (25%, 25%, "Twitch Community", "My work as a streamer");
+        }
+        .art {
+            @include hover-text-replace (30%, 45%, "Art and inspiration", "My art and what inspires me");
+        }
     }
-    .art {
-        @include hover-text-replace (30%, 45%, "Art and inspiration", "My art and what inspires me");
+    section {
+        margin-top: 5%;
     }
  
-    div {
+    .enlarge_text {
         position: absolute;
         margin-left: 40%;
         margin-top: 30%;
@@ -55,12 +63,43 @@
             &:hover {
                 transform: scale(1.25);
             }
-            h3 {
-                font-size: 30px;
-                font-family: 'Lobster';
-                // cassie fix this. lobster DON'T WORK!!!
-            }
     }
-
-
+    h1 {
+        position: absolute;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 100px;
+        top: -10%;
+        left: 10%;
+    }
+    h2 {
+        color: rgb(255, 203, 203);
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        font-size: 2em;
+    }
+    h3 {
+        color: rgb(255, 203, 203);
+        font-size: 30px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+    }
+    h6 {
+        color: rgb(255, 203, 203);
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    p {
+        color: rgb(255, 203, 203);
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    
+    .podcast_info {
+        position: absolute;
+        width: 50%;
+        margin-top: 60%;
+        margin-left: 5%;
+        }
+    
 }
