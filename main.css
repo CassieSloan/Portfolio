@@ -380,6 +380,12 @@ nav {
   margin-top: 160%;
   margin-left: 10%;
 }
+#content_page .twitch_info {
+  position: absolute;
+  width: 40%;
+  margin-top: 190%;
+  margin-left: 10%;
+}
 #content_page img.resize {
   width: auto;
   height: 300px;
@@ -400,6 +406,13 @@ nav {
   position: absolute;
   margin-top: 5%;
   margin-left: 120%;
+  margin-right: 10%;
+}
+#content_page #twitch_embed {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 120%;
+  margin-right: 10%;
 }
 
 #contact body {
