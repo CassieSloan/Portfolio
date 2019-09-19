@@ -24,7 +24,8 @@
         .selfportrait {
             position: absolute;
             margin-left: 60%;
-            margin-top: -15%;
+            // margin-top: -15%;
+            top: 0;
             width: 30%;
             border: 15px white solid;
             border-bottom: 70px white solid;
@@ -38,16 +39,13 @@
             transform: rotate(310deg);
         }
             
-        .likes_icons {
-                margin-left: 60%;
-                margin-top: 25%;
+    .likes_icons {
+            margin-left: 60%;
+            margin-top: 50%;
             }
         .circle_icons {
             width: 128px;
             margin: 0.5%;
-        }
-        .social_resize {
-            width: 90px;
         }
         .first_para {
             margin-top: 20%;

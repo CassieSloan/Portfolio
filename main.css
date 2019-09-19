@@ -475,6 +475,12 @@ nav {
   margin-left: 3%;
   margin-top: 5%;
 }
+#contact body .follow_me {
+  margin-left: 3%;
+}
+#contact body .social_resize {
+  width: 50px;
+}
 #contact body h6 {
   display: inherit;
   font-family: "Comfortaa", cursive;
@@ -580,7 +586,7 @@ nav {
 #about_me body .selfportrait {
   position: absolute;
   margin-left: 60%;
-  margin-top: -15%;
+  top: 0;
   width: 30%;
   border: 15px white solid;
   border-bottom: 70px white solid;
@@ -594,14 +600,11 @@ nav {
 }
 #about_me body .likes_icons {
   margin-left: 60%;
-  margin-top: 25%;
+  margin-top: 50%;
 }
 #about_me body .circle_icons {
   width: 128px;
   margin: 0.5%;
-}
-#about_me body .social_resize {
-  width: 90px;
 }
 #about_me body .first_para {
   margin-top: 20%;
