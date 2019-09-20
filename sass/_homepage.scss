@@ -110,7 +110,8 @@
         footer {
             color: rgb(255, 203, 203);
             font-family: 'Comfortaa', cursive;
-
+            text-align: center;
+            margin-top: 10%;
         }
         p {
             position: absolute;
@@ -126,18 +127,21 @@
         h1 {
             position: absolute;
             font-family: 'Permanent Marker', cursive;
-            color: white;
+            color: rgb(255, 255, 255);
             font-size: 6.5em;
             margin-left: 25%;
             margin-top: 4%;
             margin-bottom: 10%;
         }
-        nav {
-            color: white;
-            position: relative;
-            margin-top: 50px;
+        h3 {
+            font-size: 3em;
+            color: rgb(255, 255, 255);
+            transform: rotate(270deg);
+            margin-top: 150%;
+            text-shadow: 2px 2px 2px #000000;
+            margin-left: -27%;
+            width: 100%;
         }
-        
         // classes
         
         .imageresize {
@@ -222,5 +226,7 @@
         text-align: center;
         width: 50%;
     }
-    
+    #homepage body .align_right {
+        text-align: center;
+    }    
 }
