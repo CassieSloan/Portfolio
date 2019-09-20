@@ -42,7 +42,15 @@
             font-family: 'Comfortaa', cursive;                        
             line-height: 130%;
             letter-spacing: 0.1em;
-            margin-left: 5%;        
+            margin-left: 5%;
+            span {
+                color: black;
+                font-weight: 700;
+                font-size: 0.75em;
+                background-color: rgb(255, 203, 203);
+                padding: 1%;
+                border-radius: 1em;
+            }        
         }
 
         .blog_images {

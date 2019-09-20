@@ -540,6 +540,14 @@ nav {
   letter-spacing: 0.1em;
   margin-left: 5%;
 }
+#blog body p span {
+  color: black;
+  font-weight: 700;
+  font-size: 0.75em;
+  background-color: #ffcbcb;
+  padding: 1%;
+  border-radius: 1em;
+}
 #blog body .blog_images {
   width: 400px;
   height: 300px;
