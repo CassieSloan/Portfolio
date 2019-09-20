@@ -312,7 +312,7 @@ nav {
   font-size: 20px;
 }
 #content_page section {
-  margin-top: 5%;
+  margin-top: -15%;
 }
 #content_page .enlarge_text {
   position: absolute;
@@ -327,7 +327,6 @@ nav {
   transform: scale(1.25);
 }
 #content_page h1 {
-  position: absolute;
   font-family: "Permanent Marker", cursive;
   color: white;
   font-size: 100px;
@@ -342,7 +341,7 @@ nav {
 }
 #content_page h3 {
   color: #ffcbcb;
-  font-size: 30px;
+  font-size: 1.5em;
   font-family: "Comfortaa", cursive;
   font-weight: 700;
 }
@@ -355,70 +354,45 @@ nav {
   color: #ffcbcb;
   font-family: "Comfortaa", cursive;
 }
-#content_page .podcast_info {
-  position: absolute;
-  width: 40%;
-  margin-top: 60%;
-  margin-left: 10%;
+#content_page .flexbox {
+  display: flex;
+  justify-content: center;
+  margin: 5% 5%;
 }
-#content_page .dev_info {
-  position: absolute;
-  width: 40%;
-  margin-top: 85%;
-  margin-left: 10%;
+#content_page article {
+  margin-top: 65%;
 }
-#content_page .model_info {
-  display: inline-block;
-  position: absolute;
-  width: 100%;
-  margin-top: 115%;
-  text-align: center;
+#content_page #anchor_embed {
+  margin-top: 10%;
+  margin-left: 5%;
 }
-#content_page .model_info h6 {
-  width: 80%;
-  margin-left: 10%;
+#content_page #git_embed {
+  margin-top: 5%;
+  margin-left: 5%;
 }
-#content_page .art_info {
-  position: absolute;
-  width: 40%;
-  margin-top: 160%;
-  margin-left: 10%;
+#content_page #art_embed {
+  margin-left: 5%;
 }
-#content_page .twitch_info {
-  position: absolute;
-  width: 40%;
-  margin-top: 190%;
-  margin-left: 10%;
+#content_page #twitch_embed {
+  margin-left: 5%;
 }
-#content_page img.resize {
+#content_page .resize {
   width: auto;
   height: 300px;
   display: inline;
 }
-#content_page #anchor_embed {
-  position: absolute;
-  margin-left: 120%;
-  margin-top: 20%;
-  margin-right: 10%;
-}
-#content_page #git_embed {
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 120%;
-}
-#content_page #art_embed {
-  position: absolute;
-  margin-top: 5%;
-  margin-left: 120%;
-  margin-right: 10%;
-}
-#content_page #twitch_embed {
-  position: absolute;
-  margin-top: 5%;
-  margin-left: 120%;
-  margin-right: 10%;
-}
 
+@media screen and (max-width: 900px) {
+  #content_page .flexbox {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #content_page .resize {
+    height: 150px;
+  }
+}
 #contact body {
   background-color: black;
 }

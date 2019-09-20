@@ -49,7 +49,7 @@
         }
     }
     section {
-        margin-top: 5%;
+        margin-top: -15%;
     }
  
     .enlarge_text {
@@ -65,7 +65,6 @@
             }
     }
     h1 {
-        position: absolute;
         font-family: 'Permanent Marker', cursive;
         color: white;
         font-size: 100px;
@@ -80,7 +79,7 @@
     }
     h3 {
         color: rgb(255, 203, 203);
-        font-size: 30px;
+        font-size: 1.5em;
         font-family: 'Comfortaa', cursive;
         font-weight: 700;
     }
@@ -94,71 +93,46 @@
         color: rgb(255, 203, 203);
         font-family: 'Comfortaa', cursive;
     }
-    
-    .podcast_info {
-        position: absolute;
-        width: 40%;
-        margin-top: 60%;
-        margin-left: 10%;
-        }
-    .dev_info {
-        position: absolute;
-        width: 40%;
-        margin-top: 85%;
-        margin-left: 10%;
-        }
-    .model_info {
-        display: inline-block;
-        position: absolute;
-        width: 100%;
-        margin-top: 115%; 
-        text-align: center;  
-            h6 {
-                width: 80%;
-                margin-left: 10%;
-            }   
-        }
-    .art_info {
-        position: absolute;
-        width: 40%;
-        margin-top: 160%;
-        margin-left: 10%;
-        }  
-    .twitch_info {
-        position: absolute;
-        width: 40%;
-        margin-top: 190%;
-        margin-left: 10%;
-    }    
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        margin: 5% 5%;
+        
+    }
 
-    img.resize {
+    article {
+        margin-top: 65%;
+    }
+    #anchor_embed {
+        margin-top: 10%;
+        margin-left: 5%;
+        
+    }
+    #git_embed {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #art_embed {
+        margin-left: 5%;
+    }
+    #twitch_embed {
+        margin-left: 5%;
+    }
+    .resize {
         width: auto;
         height: 300px;
         display: inline;
         }
-    #anchor_embed {
-        position: absolute;
-        margin-left: 120%;
-        margin-top: 20%;
-        margin-right: 10%;
-        }
-    #git_embed {
-        position: absolute;
-        margin-top: 2%;
-        margin-left: 120%;
-        }
-    #art_embed {
-        position: absolute;
-        margin-top: 5%;
-        margin-left: 120%;
-        margin-right: 10%;
-
-        }
-    #twitch_embed {
-        position: absolute;
-        margin-top: 5%;
-        margin-left: 120%;
-        margin-right: 10%;
-
+}
+@media screen and (max-width: 900px) {
+    
+        #content_page .flexbox {
+            flex-direction: column-reverse;
+            align-items: center;
+        }  
     }
+@media screen and (max-width: 1200px) {
+    #content_page .resize {
+        height: 150px;
+    }        
 }
