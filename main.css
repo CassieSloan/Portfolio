@@ -573,6 +573,7 @@ nav {
   color: white;
   font-size: 6.5em;
   margin-left: 20%;
+  margin-top: 2%;
 }
 #about_me body h3 {
   color: #ffcbcb;
@@ -586,33 +587,43 @@ nav {
 }
 #about_me body .flex_box1 article {
   width: 50%;
-  margin: 5%;
+  top: -5%;
+  margin-left: 5%;
 }
-#about_me body .flex_box1 .image_container {
+#about_me body .flex_box1 .right_collumn {
   width: 50%;
   text-align: center;
 }
-#about_me body .flex_box1 .image_container img {
+#about_me body .flex_box1 .right_collumn .image_container img {
   width: 70%;
   height: auto;
   border: 15px white solid;
   border-bottom: 70px white solid;
+}
+#about_me body ul {
+  margin-left: 5%;
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  line-height: 2em;
+}
+#about_me body span {
+  font-weight: 700;
 }
 #about_me body .flex_box1 {
   display: flex;
   justify-content: space-between;
 }
 #about_me body .likes_icons {
-  margin-top: -10%;
+  text-align: center;
+  margin: 5%;
 }
 #about_me body .circle_icons {
   width: 128px;
-  margin: 0.5%;
 }
 #about_me .mail_resume {
-  width: 49%;
   margin-top: 1%;
   margin-left: 5%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

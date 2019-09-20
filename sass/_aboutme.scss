@@ -12,6 +12,7 @@
             color: white;
             font-size: 6.5em;
             margin-left: 20%;
+            margin-top: 2%;
         }
         h3 {
             color: rgb(255, 203, 203);
@@ -28,12 +29,14 @@
         .flex_box1 { 
             article {
                 width: 50%;
-                margin: 5%;
+                top: -5%;
+                margin-left: 5%; 
+                
             }
-            .image_container {
+            .right_collumn {
                 width: 50%;
                 text-align: center; 
-                img {
+                .image_container img {
                         width: 70%;
                         height: auto;
                         border: 15px white solid;
@@ -43,31 +46,32 @@
 
         }
         
-        // ol {
-        //     width: 50%;
-        //     margin-left: 5%;
-        //     color: rgb(255, 203, 203);
-        //     font-family: 'Comfortaa', cursive;
-        // }
+        ul {
+            margin-left: 5%;
+            color: rgb(255, 203, 203);
+            font-family: 'Comfortaa', cursive;
+            line-height: 2em;
+        }
+        span {
+            font-weight: 700;
+        }  
 
     .flex_box1 {
         display: flex;    
         justify-content: space-between;
-    }        
+    }       
     .likes_icons {
-            // position: relative;
-            // margin-left: 60%;
-            margin-top: -10%;
-            }
+            text-align: center;
+            margin: 5%;
+        }
     .circle_icons {
             width: 128px;
-            margin: 0.5%;
         }
     }
     .mail_resume {
-        width: 49%;
         margin-top: 1%;
         margin-left: 5%;
+        text-align: center;
     }
 }
 
