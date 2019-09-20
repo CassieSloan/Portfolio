@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
@@ -507,62 +508,70 @@ nav {
 #blog body {
   background-color: black;
 }
+#blog body section {
+  margin-top: 20%;
+}
 #blog body h1 {
   position: absolute;
   font-family: "Permanent Marker", cursive;
   color: white;
   font-size: 100px;
   margin-left: 40%;
-  margin-top: -20%;
+  margin-top: -15%;
 }
-#blog body section {
-  margin-top: 25%;
+#blog body .flexbox {
+  display: flex;
+  margin: 4%;
 }
-#blog body section article {
-  margin-top: 10%;
-  margin-bottom: 20%;
+#blog body .flexbox div:nth-of-type(2) {
+  flex: 1;
 }
-#blog body section article h3 {
-  color: white;
-  margin-left: 45%;
+#blog body h3 {
+  color: #ffcbcb;
+  font-size: 30px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  margin-left: 5%;
 }
-#blog body section article p {
+#blog body p {
   color: #ffcbcb;
   font-family: "Comfortaa", cursive;
-  color: white;
-  margin-left: 45%;
-  width: 40%;
   line-height: 130%;
   letter-spacing: 0.1em;
-}
-#blog body section article div {
-  position: absolute;
   margin-left: 5%;
-  margin-top: -20%;
-  left: 0;
-  display: inline-block;
+}
+#blog body .blog_images {
   width: 400px;
   height: 300px;
+  border-radius: 2em;
 }
-#blog body section article #blog1 {
+#blog body #blog1 {
   background: url(/images/blog1.jpg) no-repeat center;
   background-size: cover;
 }
-#blog body section article #blog2 {
+#blog body #blog2 {
   background: url(/images/blog2.jpg) no-repeat center;
   background-size: cover;
 }
-#blog body section article #blog3 {
+#blog body #blog3 {
   background: url(/images/blog3.jpg) no-repeat center;
   background-size: cover;
 }
-#blog body section article #blog4 {
+#blog body #blog4 {
   background: url(/images/blbog4.gif) no-repeat center;
   background-size: cover;
 }
-#blog body section article #blog5 {
+#blog body #blog5 {
   background: url(/images/blog5.jpg) no-repeat center;
   background-size: cover;
+}
+@media screen and (max-width: 900px) {
+  #blog body .flexbox {
+    display: block;
+  }
+  #blog body .blog_images {
+    margin: auto;
+  }
 }
 
 #about_me body {
