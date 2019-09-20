@@ -585,13 +585,19 @@ nav {
   color: #ffcbcb;
   font-family: "Comfortaa", cursive;
 }
+#about_me body .flex_box1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 #about_me body .flex_box1 article {
-  width: 50%;
+  width: 100%;
   top: -5%;
   margin-left: 5%;
 }
 #about_me body .flex_box1 .right_collumn {
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 #about_me body .flex_box1 .right_collumn .image_container img {
@@ -609,10 +615,6 @@ nav {
 #about_me body span {
   font-weight: 700;
 }
-#about_me body .flex_box1 {
-  display: flex;
-  justify-content: space-between;
-}
 #about_me body .likes_icons {
   text-align: center;
   margin: 5%;
@@ -624,6 +626,18 @@ nav {
   margin-top: 1%;
   margin-left: 5%;
   text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  #about_me body .flex_box1 {
+    flex-wrap: nowrap;
+  }
+  #about_me body .flex_box1 article {
+    width: 50%;
+  }
+  #about_me body .flex_box1 .right_collumn {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
