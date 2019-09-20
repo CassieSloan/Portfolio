@@ -94,8 +94,13 @@
 #homepage body .nav_images #nav_image4 {
   background-image: url("/images/content.jpeg");
 }
+#homepage body .align_right {
+  text-align: right;
+  z-index: 1;
+}
 #homepage body footer {
-  color: white;
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
 }
 #homepage body p {
   position: absolute;
@@ -117,43 +122,38 @@
   margin-top: 4%;
   margin-bottom: 10%;
 }
-
-nav {
+#homepage body nav {
   color: white;
   position: relative;
   margin-top: 50px;
 }
-
-.imageresize {
+#homepage body .imageresize {
   width: 20%;
   height: auto;
 }
-
-.bottom_portrait {
+#homepage body .bottom_portrait {
   height: auto;
   width: 25%;
-  margin-right: 50px;
-  margin-top: 70px;
+  margin-right: 5%;
+  margin-top: 5%;
   border-radius: 20px 90px 90px 90px;
+  text-align: right;
 }
-
-.center {
+#homepage body .center {
   text-align: center;
 }
-
-.logo {
+#homepage body .logo {
   text-align: center;
   margin: 30px;
 }
-
-#section1 {
+#homepage body #section1 {
   position: relative;
   margin-left: 50px;
   padding: 50px;
   border-left: 10px solid white;
   border-top: 10px solid white;
 }
-#section1 .bar {
+#homepage body #section1 .bar {
   width: 75%;
   height: 15px;
   background-color: black;
@@ -161,7 +161,7 @@ nav {
   top: -10px;
   right: 0;
 }
-#section1 .left_bar {
+#homepage body #section1 .left_bar {
   width: 15px;
   height: 45%;
   background-color: black;
@@ -169,11 +169,35 @@ nav {
   left: -10px;
   bottom: 0;
 }
-
-#section2 {
+#homepage body #section1 #section2 {
   text-align: right;
 }
 
+@media screen and (max-width: 1200px) {
+  #homepage body h1 {
+    position: static;
+    margin: auto;
+    text-align: center;
+  }
+
+  #homepage body .align_center {
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  #homepage body p {
+    position: static;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+  }
+  #homepage body p #homepage body .align_right {
+    text-align: center;
+  }
+}
 #content_page {
   @import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
   @import url("https://fonts.googleapis.com/css?family=Comfortaa:700&display=swap");
