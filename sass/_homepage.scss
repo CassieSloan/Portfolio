@@ -24,6 +24,9 @@
         .dropdown {
             position: relative;
             display: inline-block;
+            margin-left: 89%;
+            margin-top: 2%;
+
         }
         
         .dropdown-content {
@@ -44,7 +47,7 @@
         }
         
         .dropdown-content a:hover {
-            background-color: orange;
+            background-color:  rgb(255, 203, 203);
         }
         
         .dropdown:hover .dropdown-content {

@@ -27,6 +27,8 @@
 #homepage body .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: 89%;
+  margin-top: 2%;
 }
 #homepage body .dropdown-content {
   display: none;
@@ -44,7 +46,7 @@
   display: block;
 }
 #homepage body .dropdown-content a:hover {
-  background-color: orange;
+  background-color: #ffcbcb;
 }
 #homepage body .dropdown:hover .dropdown-content {
   display: block;
@@ -212,6 +214,48 @@
 #content_page body {
   background-color: black;
 }
+#content_page body div .dropbtn {
+  right: 0;
+}
+#content_page body .dropbtn {
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#content_page body .dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 85%;
+  margin-top: 2%;
+}
+#content_page body .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  opacity: 0.8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#content_page body .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#content_page body .dropdown-content a:hover {
+  background-color: #ffcbcb;
+}
+#content_page body .dropdown:hover .dropdown-content {
+  display: block;
+}
+#content_page body .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
 #content_page body .microphone {
   position: absolute;
   margin-left: 45%;
@@ -361,7 +405,7 @@
   font-family: "Permanent Marker", cursive;
   color: white;
   font-size: 100px;
-  top: -10%;
+  margin-top: -5%;
   left: 10%;
 }
 #content_page h2 {
@@ -433,6 +477,48 @@
 #contact body {
   background-color: black;
 }
+#contact body div .dropbtn {
+  right: 0;
+}
+#contact body .dropbtn {
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#contact body .dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 89%;
+  margin-top: 2%;
+}
+#contact body .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  opacity: 0.8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#contact body .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#contact body .dropdown-content a:hover {
+  background-color: #ffcbcb;
+}
+#contact body .dropdown:hover .dropdown-content {
+  display: block;
+}
+#contact body .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
 #contact body .tumblr {
   font-size: 6.5em;
   font-family: "Permanent Marker", cursive;
@@ -487,7 +573,6 @@
 }
 #contact body .contact_me {
   margin-left: 3%;
-  margin-top: 5%;
 }
 #contact body .follow_me {
   margin-left: 3%;
@@ -519,6 +604,48 @@
 #blog body {
   background-color: black;
 }
+#blog body div .dropbtn {
+  right: 0;
+}
+#blog body .dropbtn {
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#blog body .dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 85%;
+  margin-top: 2%;
+}
+#blog body .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  opacity: 0.8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#blog body .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#blog body .dropdown-content a:hover {
+  background-color: #ffcbcb;
+}
+#blog body .dropdown:hover .dropdown-content {
+  display: block;
+}
+#blog body .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
 #blog body section {
   margin-top: 20%;
 }
@@ -528,7 +655,7 @@
   color: white;
   font-size: 100px;
   margin-left: 40%;
-  margin-top: -15%;
+  margin-top: 1%;
 }
 #blog body .flexbox {
   display: flex;
@@ -595,6 +722,48 @@
 
 #about_me body {
   background-color: black;
+}
+#about_me body div .dropbtn {
+  right: 0;
+}
+#about_me body .dropbtn {
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#about_me body .dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 85%;
+  margin-top: 2%;
+}
+#about_me body .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  opacity: 0.8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#about_me body .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#about_me body .dropdown-content a:hover {
+  background-color: #ffcbcb;
+}
+#about_me body .dropdown:hover .dropdown-content {
+  display: block;
+}
+#about_me body .dropdown:hover .dropbtn {
+  background-color: #ffffff;
 }
 #about_me body h1 {
   font-family: "Permanent Marker", cursive;
