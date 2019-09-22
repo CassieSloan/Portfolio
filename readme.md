@@ -2,6 +2,8 @@
 ######Name: Cassie Sloan
 ######Assignment 2: Website Portfolio
 [Github](https://github.com/CassieSloan/Portfolio)
+[Live Site](https://condescending-noyce-61fcf7.netlify.com/
+)
 
 ### Purpose
 The purpose of this website build is to showcase my skills, personality and body of work to potential employers, co-workers and collaborators.
