@@ -429,6 +429,12 @@
   color: #ffcbcb;
   font-family: "Comfortaa", cursive;
 }
+#content_page footer {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  margin-top: 10%;
+}
 #content_page .flexbox {
   display: flex;
   justify-content: center;
@@ -580,6 +586,12 @@
 #contact body .social_resize {
   width: 50px;
 }
+#contact body footer {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  margin-top: 10%;
+}
 #contact body h6 {
   display: inherit;
   font-family: "Comfortaa", cursive;
@@ -711,6 +723,12 @@
   background: url(/images/blog5.jpg) no-repeat center;
   background-size: cover;
 }
+#blog body footer {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  margin-top: 10%;
+}
 @media screen and (max-width: 900px) {
   #blog body .flexbox {
     display: block;
@@ -823,6 +841,15 @@
   margin-top: 1%;
   margin-left: 5%;
   text-align: center;
+}
+#about_me .email_resume_text {
+  text-align: center;
+}
+#about_me footer {
+  color: #ffcbcb;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  margin-top: 10%;
 }
 
 @media screen and (min-width: 900px) {
